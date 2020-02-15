@@ -81,22 +81,7 @@ def sparsify(img,num_kept):
 
 
 def main():
-
-    # parser = argparse.ArgumentParser(description='Filtering by Adaptive Normalization (FAN) Demo!')
-    # parser.add_argument("--i", required = True, help="Input image")
-    # parser.add_argument("--p", default=0.01, help="Percentage of retained pixels")
-    # parser.add_argument("--o", default="demo_fan.png", help="Completed output")
-
-    # args = parser.parse_args()
-
-    # inp_img_name = args.i
-    # percentage = np.float32(args.p)
-    # out_img_name = args.o
-
-    # print(inp_img_name)
-    # print(percentage)
-    # print(out_img_name)
-
+    
     inp_img_name = "lena.png"
     percentage = 0.01
     out_img_name = "lena_fan.png"
