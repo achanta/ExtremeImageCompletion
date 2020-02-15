@@ -1,5 +1,14 @@
 # Extreme Image Completion
 
+```
+@inproceedings{achanta_extreme_2017,
+author={R. {Achanta} and N. {Arvanitopoulos} and S. {Süsstrunk}},
+booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+title={Extreme Image Completion},
+year={2017},
+}
+```
+
 It is challenging to complete an image whose 99% pixels are randomly missing. This repository contains code related to the two algorithms of Filtering by Adaptive Normalization (FAN) and Efficient Filtering by Adaptive Normalization (EFAN) that solve this problem efficiently. As opposed to existing techniques, EFAN has a computational complexity that is linear in the number of pixels of the full image and is real-time in practice. For comparable quality of reconstruction, our algorithms are thus almost 2 to 5 orders of magnitude faster than existing techniques.
 
 The Python demo file provided can be used, for example, as:
@@ -16,13 +25,6 @@ An example of image completion of an image is shown below:
   <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena_fan.png" width="200" /> 
 </p>
 
-The paper can be cited as follows:
-```
-@inproceedings{achanta_extreme_2017,
-author={R. {Achanta} and N. {Arvanitopoulos} and S. {Süsstrunk}},
-booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
-title={Extreme Image Completion},
-year={2017},
-}
-```
+Given a full input image (left), a sparse image containing only 1 percent pixels is created (middle) and then completed (right).
+
 
