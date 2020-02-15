@@ -11,9 +11,9 @@ The value 0.01 is the fraction of pixels retained from the original image to rec
 An example of image completion of an image is shown below:
 
 <p float="center">
-  <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena.png" width="300" />
-  <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena_001.png" width="300" /> 
-  <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena_fan.png" width="300" /> 
+  <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena.png" width="200" />
+  <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena_001.png" width="200" /> 
+  <img src="https://github.com/achanta/ExtremeImageCompletion/blob/master/images/lena_fan.png" width="200" /> 
 </p>
 
 The paper can be cited as follows:
